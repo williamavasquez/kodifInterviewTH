@@ -1,0 +1,396 @@
+{
+  "views": [
+    {
+      "type": "container",
+      "style": {
+        "webStyle": {
+          "padding": "0",
+          "margin": "0",
+          "minWidth": "100%",
+          "display": "flex",
+          "flexDirection":"column",
+          "alignItems": "space-between"
+        },
+        "actions": {
+          "onFocus": {},
+          "onHover": {
+            "backgroundColor": "#eee"
+          }
+        }
+      },
+      "children": [
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "padding": "0",
+              "margin": "0",
+              "textAlign": "center"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {
+                "backgroundColor": "#eee"
+              }
+            }
+          },
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "value": "Order #1401356"
+              },
+              "style": {
+                "webStyle": {
+                  "font": "16px"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "padding": "35px 100px",
+              "margin": "0",
+              "textAlign": "center",
+              "background": "#d35247"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {
+                "backgroundColor": "#eee"
+              }
+            }
+          },
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "value": "Did something go wrong? Let us know how we can help"
+              },
+              "style": {
+                "webStyle": {
+                  "font": "16px",
+                  "color": "#fff"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "margin": "0px"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {}
+            }
+          },
+          "children": [
+            {
+              "type": "button",
+              "data": {
+                "title": "My order was incomplete",
+                "addArrow": true
+              },
+              "style": {
+                "webStyle": {
+                  "width": "100%",
+                  "margin": "10px 0px",
+                  "backgroundColor": "#ffffff",
+                  "border": "1px solid lightgray",
+                  "box-shadow": "0px 0px 20px -3px rgba(0,0,0,0.20)",
+                  "borderRadius": "3px",
+                  "fontSize": "16px",
+                  "padding": "20px 20px",
+                  "display": "flex",
+                  "justifyContent": "space-between",
+                  "align-items": "center"
+                },
+                "actions": {
+                  "onFocus": {
+                    "color": "#ffffff",
+                    "backgroundColor": "#EE2737"
+                  },
+                  "onHover": {
+                    "color": "#ffffff",
+                    "backgroundColor": "#EE2737"
+                  }
+                }
+              }
+            },
+            {
+              "type": "button",
+              "data": {
+                "title": "My order was late",
+                "addArrow": true
+              },
+              "style": {
+                "webStyle": {
+                  "margin": "10px 0px",
+                  "width": "100%",
+                  "backgroundColor": "#ffffff",
+                  "border": "1px solid lightgray",
+                  "box-shadow": "0px 0px 20px -3px rgba(0,0,0,0.20)",
+                  "borderRadius": "3px",
+                  "fontSize": "16px",
+                  "padding": "20px 20px",
+                  "display": "flex",
+                  "justifyContent": "space-between",
+                  "align-items": "center"
+                },
+                "actions": {
+                  "onFocus": {
+                    "color": "#ffffff",
+                    "backgroundColor": "#EE2737"
+                  },
+                  "onHover": {
+                    "color": "#ffffff",
+                    "backgroundColor": "#EE2737"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "margin": "0px"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {}
+            }
+          },
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "value": "Suggested amount to credit to the customer:"
+              },
+              "style": {
+                "webStyle": {
+                  "margin": " 0px 5px",
+                  "display": "inline-block",
+                  "fontStyle": "normal",
+                  "fontSize": "14px",
+                  "lineHeight": "32px",
+                  "paddingRight": "48px"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            },
+            {
+              "type": "textfield",
+              "data": {
+                "placeholder": null,
+                "value": "10", 
+                "name": "customerCredit"
+              },
+              "style": {
+                "webStyle": {
+                  "color": "#3D3935",
+                  "fontSize": "14px",
+                  "width": "100%",
+                  "padding": "8px 0px",
+                  "background": "transparent",
+                  "border": "none",
+                  "borderBottom": "1px solid #000000",
+                  "text-align": "center",
+                  "margin": "0 auto"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            },
+            {
+              "type": "text",
+              "data": {
+                "value": "Amount to credit should be greater than 0"
+              },
+              "style": {
+                "webStyle": {
+                  "margin": " 0px 5px",
+                  "display": "inline-block",
+                  "fontStyle": "normal",
+                  "fontSize": "12px",
+                  "lineHeight": "32px",
+                  "paddingRight": "48px"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "margin": "20px 0px",
+              "display": "flex",
+              "justifyContent":"left"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {}
+            }
+          },
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "value": "Choose the Reason:"
+              },
+              "style": {
+                "webStyle": {
+                  "margin": " 0px 5px",
+                  "display": "inline-block",
+                  "flex": "40%",
+                  "fontStyle": "normal",
+                  "fontSize": "14px",
+                  "lineHeight": "32px",
+                  "paddingRight": "48px"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            },
+            {
+              "type": "dropdown",
+              "value": "",
+              "data":{
+                "name":"selectedItem"
+              }, 
+
+              "options": [
+                {"value": "option1", "label": "Option 1"},
+                {"value": "option2", "label": "Option 2"},
+                {"value": "option3", "label": "Option 3"}
+              ],
+              "style": {
+                "webStyle": {
+                  "flex": "40%",
+                  "padding": "8px",
+                  "border": "1px solid #ccc"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "webStyle": {
+              "margin": "0px"
+            },
+            "actions": {
+              "onFocus": {},
+              "onHover": {}
+            }
+          },
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "value": "Comments:"
+              },
+              "style": {
+                "webStyle": {
+                  "margin": " 0px 5px",
+                  "color":"gray",
+                  "display": "inline-block",
+                  "fontStyle": "normal",
+                  "fontSize": "10px",
+                  "lineHeight": "32px",
+                  "paddingRight": "48px"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            },
+            {
+              "type": "textarea",
+              "data": {
+                "placeholder": null,
+                "rows": 4,
+                "name": "commentSection"
+              },
+              "style": {
+                "webStyle": {
+                  "color": "#3D3935",
+                  "fontSize": "14px",
+                  "width": "100%",
+                  "padding": "8px 0px",
+                  "borderRadius": "5px",
+                  "background": "transparent",
+                  "border": "2px solid #393433",
+                  "text-align": "center",
+                  "margin": "0 auto"
+                },
+                "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "data": {
+              "title": "Submit"
+          },
+          "style": {
+              "webStyle": {
+                  "width": "100%",
+                  "color": "#fff",
+                  "backgroundColor": "#c5c5c5",
+                  "border": "1px solid #d5d5d5",
+                  "borderRadius": "30px",
+                  "marginTop": "30px",
+                  "fontSize": "16px",
+                  "fontWeight": 500,
+                  "padding": "20px 20px"
+              },
+              "actions": {
+                  "onFocus": {
+                      "color": "#ffffff",
+                      "backgroundColor": "#EE2737"
+                  },
+                  "onHover": {
+                      "color": "#ffffff",
+                      "backgroundColor": "#EE2737"
+                  }
+              }
+          }
+      }
+      ]
+    }
+  ]
+}

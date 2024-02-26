@@ -1,0 +1,295 @@
+{
+  "views": [{
+          "type": "container",
+          "style": {
+              "webStyle": {
+                  "padding": "10px 0",
+                  "margin": "0",
+                  "display": "flex",
+                  "alignItems": "center"
+              },
+              "actions": {
+                  "onFocus": {},
+                  "onHover": {
+                      "backgroundColor": "#eee"
+                  }
+              }
+          },
+          "children": [{
+                  "type": "container",
+                  "style": {
+                      "webStyle": {
+                          "padding": "16px",
+                          "margin": "0",
+                          "width": "50px",
+                          "cursor": "pointer",
+                          "position": "relative",
+                          "left": "0"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {
+                              "backgroundColor": "#eee"
+                          }
+                      }
+                  },
+                  "children": [{
+                      "type": "image",
+                      "value": "/img/uploadimg.png",
+                      "style": {
+                          "webStyle": {
+                              "width": "8px",
+                              "height": "13px",
+                              "display": "inline-block",
+                              "float": "left"
+                          },
+                          "actions": {
+                              "onFocus": {},
+                              "onHover": {}
+                          }
+                      }
+                  }]
+              },
+              {
+                  "type": "container",
+                  "style": {
+                      "webStyle": {
+                          "padding": "10px 0",
+                          "margin": "0",
+                          "textAlign": "center"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {
+                              "backgroundColor": "#eee"
+                          }
+                      }
+                  },
+                  "children": [{
+                      "type": "text",
+                      "data": {
+                          "value": "Something Went Wrong"
+                      },
+                      "style": {
+                          "webStyle": {
+                              "display": "inline-block",
+                              "color": "#392F2C",
+                              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                              "fontStyle": "normal",
+                              "fontWeight": 400,
+                              "fontSize": "32px",
+                              "lineHeight": "32px",
+                              "paddingRight": "48px"
+                          },
+                          "actions": {
+                              "onFocus": {},
+                              "onHover": {}
+                          }
+                      }
+                  }]
+              }
+          ]
+      },
+      {
+          "type": "container",
+          "style": {
+              "webStyle": {},
+              "actions": {
+                  "onFocus": {},
+                  "onHover": {
+                      "backgroundColor": "#eee"
+                  }
+              }
+          },
+          "children": [{
+                  "type": "text",
+                  "data": {
+                      "value": "Please leave us the email associated with your Nom Nom account and a brief description of the issue."
+                  },
+                  "style": {
+                      "webStyle": {
+                          "color": "#3D3935",
+                          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                          "fontSize": "15px",
+                          "lineHeight": "22px",
+                          "marginTop": "10px",
+                          "textAlign": "center",
+                          "width": "100%"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {}
+                      }
+                  }
+              },
+              {
+                  "type": "text",
+                  "data": {
+                      "value": "One of our Customer Care Agents will be reaching out to you within 24 hours."
+                  },
+                  "style": {
+                      "webStyle": {
+                          "color": "#3D3935",
+                          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                          "fontSize": "15px",
+                          "lineHeight": "22px",
+                          "marginTop": "5px",
+                          "padding": "0px 10px 0px 10px",
+                          "textAlign": "center",
+                          "width": "100%"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {}
+                      }
+                  }
+              },
+              {
+                  "type": "text",
+                  "data": {
+                      "value": "Nom Nom Account Email:"
+                  },
+                  "style": {
+                      "webStyle": {
+                          "marginTop": "30px",
+                          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                          "color": "#3D3935",
+                          "fontSize": "13px",
+                          "lineHeight": "22px",
+                          "fontWeight": "bold"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {}
+                      }
+                  }
+              },
+              {
+                  "type": "container",
+                  "style": {
+                      "webStyle": {
+                          "borderRadius": "3px",
+                          "borderStyle": "groove",
+                          "border": "0.5px solid "
+                      }
+                  },
+                  "children": [{
+                      "type": "textfield",
+                      "data": {
+                          "placeholder": null,
+                          "value": null
+                      },
+                      "style": {
+                          "webStyle": {
+                              "color": "#3D3935",
+                              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                              "fontSize": "15px",
+                              "padding": "8px 0px",
+                              "textTransform": "none",
+                              "text-align": "center",
+                              "margin": "0 auto"
+                          },
+                          "actions": {
+                              "onFocus": {},
+                              "onHover": {}
+                          }
+                      }
+                  }]
+              },
+              {
+                  "type": "text",
+                  "data": {
+                      "value": "Comments (optional):"
+                  },
+                  "style": {
+                      "webStyle": {
+                          "marginTop": "30px",
+                          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                          "color": "#3D3935",
+                          "fontSize": "13px",
+                          "lineHeight": "22px",
+                          "fontWeight": "bold"
+                      },
+                      "actions": {
+                          "onFocus": {},
+                          "onHover": {}
+                      }
+                  }
+              },
+              {
+                  "type": "container",
+                  "style": {
+                      "webStyle": {
+                          "width": "100%",
+                          "padding": "0px"
+                      }
+                  },
+                  "children": [{
+                      "type": "textarea",
+                      "data": {
+                          "placeholder": "",
+                          "value": null
+                      },
+                      "style": {
+                          "webStyle": {
+                              "color": "#3D3935",
+                              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                              "padding": "15px",
+                              "borderStyle": "solid",
+                              "borderWidth": "1px",
+                              "borderColor": "#392F2C",
+                              "borderRadius": "4px"
+                          }
+                      }
+                  }]
+              }
+          ]
+      },
+      {
+          "type": "container",
+          "style": {
+              "webStyle": {
+                  "marginTop": "20px"
+              },
+              "actions": {
+                  "onFocus": {},
+                  "onHover": {}
+              }
+          },
+          "children": [{
+              "type": "button",
+              "data": {
+                  "title": "Submit"
+              },
+              "style": {
+                  "webStyle": {
+                      "width": "100%",
+                      "color": "#EE2737",
+                      "backgroundColor": "#ffffff",
+                      "border": "1px solid #EE2737",
+                      "borderRadius": "3px",
+                      "fontSize": "16px",
+                      "fontWeight": 700,
+                      "padding": "10px 20px",
+                      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+                      "text-transform": "none"
+                  },
+                  "actions": {
+                      "onFocus": {
+                          "color": "#ffffff",
+                          "backgroundColor": "#EE2737"
+                      },
+                      "onHover": {
+                          "color": "#ffffff",
+                          "backgroundColor": "#EE2737"
+                      }
+                  }
+              }
+          }]
+      }
+  ]
+}
